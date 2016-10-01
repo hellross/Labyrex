@@ -3,12 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/NonCancellare/Desktop/Videogioco-Labyrex/jlabyrex/src/jlabyrex/view/StartWindow2.java</file>
             <file>file:/D:/NonCancellare/Desktop/Videogioco-Labyrex/jlabyrex/src/jlabyrex/view/IView.java</file>
             <file>file:/D:/NonCancellare/Desktop/Videogioco-Labyrex/jlabyrex/src/jlabyrex/controller/Main.java</file>
             <file>file:/D:/NonCancellare/Desktop/Videogioco-Labyrex/jlabyrex/src/jlabyrex/view/View.java</file>
             <file>file:/D:/NonCancellare/Desktop/Videogioco-Labyrex/jlabyrex/src/jlabyrex/controller/ControllerForView.java</file>
             <file>file:/D:/NonCancellare/Desktop/Videogioco-Labyrex/jlabyrex/src/jlabyrex/controller/IControllerForView.java</file>
+            <file>file:/D:/NonCancellare/Desktop/Videogioco-Labyrex/jlabyrex/src/jlabyrex/view/StartWindow.java</file>
         </group>
     </open-files>
 </project-private>

@@ -24,24 +24,24 @@ public class View implements IView {
     
     //instance attribute
     //--------------------------------------------------------------------------
-    protected StartWindow2 startwindow2=null;
+    protected StartWindow startwindow=null;
     protected HelpWindow helpwindow=null;
     protected LevelWindow levelwindow=null;
     protected MainGUI mainGUI=null;
     
     //instance method
     //--------------------------------------------------------------------------
-    public void openStartWindow2(){
+    public void openStartWindow(){
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
-				if (startwindow2 == null)
-					startwindow2 = new StartWindow2();
-				startwindow2.setVisible(true);
+				if (startwindow == null)
+					startwindow = new StartWindow();
+				startwindow.setVisible(true);
 			}
 		});
     }
     
-    public void closeStartWindow2(){
+    public void closeStartWindow(){
     }
     
     public void openMainGUI(){

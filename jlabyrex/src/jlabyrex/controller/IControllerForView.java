@@ -11,6 +11,6 @@ package jlabyrex.controller;
  */
 public interface IControllerForView {
     
-    public void openStartWindow2() ;
+    public void openStartWindow() ;
     
 }

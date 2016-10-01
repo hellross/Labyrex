@@ -13,7 +13,7 @@ public class Main {
     
     public static void main(String[] args) {
         
-        ControllerForView.getInstance().openStartWindow2();
+        ControllerForView.getInstance().openStartWindow();
     }
     
 }

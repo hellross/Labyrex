@@ -18,8 +18,8 @@ public class ControllerForView implements IControllerForView{
     
     //pubblic instance method
     //--------------------------------------------------------------------------
-    public void openStartWindow2(){
-        View.getInstance().openStartWindow2();
+    public void openStartWindow(){
+        View.getInstance().openStartWindow();
     }
     
 }

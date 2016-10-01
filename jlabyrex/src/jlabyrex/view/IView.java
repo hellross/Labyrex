@@ -11,9 +11,9 @@ package jlabyrex.view;
  */
 public interface IView {
     
-    public void openStartWindow2();
+    public void openStartWindow();
     
-    public void closeStartWindow2();
+    public void closeStartWindow();
     
     public void openMainGUI();
     
