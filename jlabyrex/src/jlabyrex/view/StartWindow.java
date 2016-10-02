@@ -7,11 +7,15 @@ package jlabyrex.view;
 
 import java.awt.Font;
 import java.awt.Container;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.JFrame;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.GroupLayout;
+
+import jlabyrex.controller.ControllerForView;
 
 public class StartWindow extends JFrame {
 
@@ -28,7 +32,11 @@ public class StartWindow extends JFrame {
             this.start=new JButton("Start");                                        //da complet.
         
             this.tutorial=new JButton("How to play");                               //finestra da creare
-        
+            this.tutorial.addActionListener(new ActionListener(){                   //azione aggiunta sul bottone tutorial
+                public void actionPerformed(ActionEvent e) {
+                    handleHelpWindowEvent();
+                }
+             });
             this.music=new JButton("Music");                                        //gestione pulsanti Da Completare
             this.setResizable(false);
             
@@ -71,8 +79,12 @@ public class StartWindow extends JFrame {
 
     }
     
-                                                   //gestisci operazioni pulsanti
-        
+                                                  //gestisci operazioni pulsanti
+        private void handleHelpWindowEvent(){                                             //collegamento con la HelpWindow
+            ControllerForView.getInstance().closeStartWindow();
+            ControllerForView.getInstance().openHelpWindow();
+        }
+    
     
 }
 

@@ -5,10 +5,24 @@
  */
 package jlabyrex.view;
 
+import javax.swing.*;
+
+import jlabyrex.controller.ControllerForView;
+
 /**
  *
  * @author Utente
  */
-public class HelpWindow {
+public class HelpWindow extends JFrame {
+    
+    
+    public HelpWindow() {
+        JFrame help;
+        help = new JFrame("How to Play");
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    
+        
+    this.pack();
+    }
     
 }
