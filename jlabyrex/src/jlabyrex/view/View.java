@@ -33,15 +33,21 @@ public class View implements IView {
     //--------------------------------------------------------------------------
     public void openStartWindow(){
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
-			public void run() {
-				if (startwindow == null)
-					startwindow = new StartWindow();
-				startwindow.setVisible(true);
+		public void run() {
+                        if (startwindow == null)
+				startwindow = new StartWindow();
+			startwindow.setVisible(true);
 			}
 		});
     }
     
     public void closeStartWindow(){
+        javax.swing.SwingUtilities.invokeLater(new Runnable() {
+		public void run() {
+			if (startwindow != null)
+				startwindow.setVisible(false);
+			}
+		});
     }
     
     public void openMainGUI(){
