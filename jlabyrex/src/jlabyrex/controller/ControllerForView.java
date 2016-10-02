@@ -16,10 +16,17 @@ public class ControllerForView implements IControllerForView{
 		return instance;
 	}
     
-    //pubblic instance method
+    //pubblic instance methods
     //--------------------------------------------------------------------------
+   
     public void openStartWindow(){
         View.getInstance().openStartWindow();
+    }
+    public void closeStartWindow() {
+        View.getInstance().closeStartWindow(); 
+    }
+    public void openHelpWindow() {
+        View.getInstance().openHelpWindow();
     }
     
 }

@@ -63,6 +63,13 @@ public class View implements IView {
     }
     
     public void openHelpWindow(){
+        javax.swing.SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				if (startwindow == null)
+					startwindow = new StartWindow();
+				startwindow.setVisible(true);
+			}
+		});
     }
     
     public void closeHelpWindow(){
